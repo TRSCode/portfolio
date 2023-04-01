@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+}
+
+
+.navbar {
+    /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-image: url('./img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    /* Additional styling for the navbar */
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: end;
+    width: 100%;
+    height: 300px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.profile-container {
+    position: absolute;
+    left: 20px;
+    bottom: -50%; /* Half the height of the profile image */
+}
+
+.profile-img{
+    height:150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin: 75px 30px;
+}
+
+.user{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
