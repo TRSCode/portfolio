@@ -40,7 +40,46 @@ body {
 }
 
 .user{
-    margin-top: 80px;
-    margin-left: 30px;
+    margin: 80px 10px 10px 30px;
+    width: 95%;
 }
 
+p {
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+.box {
+    border: 2px solid red;
+    margin:10px;
+    display: inline-block;
+}
+
+@media only screen and (max-width:480px){
+    .sm-4{
+        width: 98%;
+    }
+    .sum-1{
+        width:90%;
+    }
+    .sm-0 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    .med-2 {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .lg-1 {
+        width: 47%;
+
+        /* display: inline-block; */
+    }
+    /* .lg-3 {
+        width: 75%;
+    } */
+}
