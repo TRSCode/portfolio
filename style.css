@@ -44,15 +44,27 @@ body {
     width: 95%;
 }
 
-p {
+.info {
     margin: 10px 0px;
     text-align: justify;
 }
 
 .box {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin:10px;
     display: inline-block;
+}
+
+.contactBox {
+    align-self: flex-start;
+}
+
+.textColor {
+    color: black;
+}
+
+.row {
+    display:inline-flex
 }
 
 @media only screen and (max-width:480px){
