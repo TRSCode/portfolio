@@ -63,6 +63,10 @@ body {
     color: black;
 }
 
+.backgroundColor {
+    background-color: navajowhite;
+}
+
 .row {
     display:inline-flex
 }
